@@ -3,8 +3,8 @@
 .SHIFT_LIST 10p
 ..
 .PARA_SPACE 1m
-.TITLE "\s+(10A Friendly Guide to LARBS!\s0"
-.AUTHOR "\s+5Luke Smith\s0"
+.TITLE "\s+(10A Friendly Guide to ANUS!\s0"
+.AUTHOR "\s+5Adrian Colaianni\s0"
 .DOCTYPE    DEFAULT
 .COPYSTYLE  FINAL
 .PRINTSTYLE TYPESET
@@ -15,7 +15,6 @@ Pressing \f(CWs\fP will fit it to window width (\f(CWa\fP to revert).
 \f(CWK\fP and \f(CWJ\fP zoom in and out.
 \f(CWSuper+f\fP to toggle fullscreen.
 \f(CWq\fP to quit.
-\f(CW/\fP to search for text.
 (These are general binds set for \fBzathura\fP, the pdf reader.)
 .LI
 .ITEM
@@ -26,6 +25,31 @@ By \f(CWMod\fP, I mean the Super Key, usually known as "the Windows Key."
 .PP
 FAQs are at the end of this document.
 .HEADING 1 "Welcome!"
+.HEADING 2 "Additions in Adrian's New User System"
+.LI
+.ITEM
+Looks better - superior color scheme
+.ITEM
+GRUB Coreboot with encrypted drive - stripped ME
+.ITEM
+Working fingerprint reader - Setup by running \f(CWfprintd-enroll\fP
+.ITEM
+The superior \f(CWdoas\fP
+.ITEM
+Blur in the terminal
+.ITEM
+A disabled touchpad (I actually don't know why it's disabled but it's good it is)
+.ITEM
+A kick ass background who's realism I can vouch for after taking it apart several times
+.ITEM
+Holy shit I love blur in the terminal
+.ITEM
+MAC address randomization (do all the haxer shit you want the feds won't know (they will))
+.ITEM
+Dude you have no idea what amazing condition this Thinkpad is in. It's only had two owners. The only upgrades it's had is a RAM upgrade. This keyboard is fucking OEM! There's no sag in the machine and all it took to get it working again was new thermal paste and a battery. The worst damages on it are from me and that's a good thing.
+.ITEM
+I've also imported a lot of my configs, hence calling it ANUS instead of LARBS. However it's only subtly different.
+.LIST OFF
 .HEADING 2 "Basic goals and principles of this system:"
 .LI
 .ITEM
@@ -59,7 +83,7 @@ This is to make one-handing on laptops easier.
 .LIST OFF
 .PP
 If you'd like to change any of these keyboard changes, you need only open and change the \f(CWremaps\fP script.
-All custom scripts in LARBS are located in \f(CW~/.local/bin/\fP.
+All custom scripts in ANUS are located in \f(CW~/.local/bin/\fP.
 Actually, this should go without saying, but \fIeverything\fP here can easily be changed.
 Below in this document, there is information about where to change programs/components.
 .PP
@@ -77,9 +101,6 @@ You can also right click on the module to see what it does.
 .PP
 The program dwmblocks is what is run to generate the statusbar from those scripts.
 You can edit its config/source code in \f(CW~/.local/src/dwmblocks/\fP to tell it what scripts/commands you want it to display.
-.HEADING 3 "HiDPI and 4K Displays"
-.PP
-If you have a screen with a very high dots-per-inch, the interface, particularly the status bar at the top may be very small. To change this, you can run \f(CWxrandr --dpi 96\fP, replacing 96 with a higher number, then you can refresh the window manager in the menu at \f(CWsuper+backspace\fP. To make this change persistent after reboot, edit \f(CW~/.xprofile\fP and you will see that same command which you can change to have the dots-per-inch value you want.
 .HEADING 2 "Deeper Tutorials"
 .PP
 Press \f(CWmod+F2\fP at any time to get a menu of programs to watch videos about streaming directly from YouTube.
@@ -134,7 +155,7 @@ To type capital letters, hold down the \f(CWShift\fP key\(emthat might sound lik
 .ITEM
 \f(CWMod+F\fP \(en Floating (AKA normie) mode
 .ITEM
-\f(CWMod+y\fP \(en Fibonacci spiral mode
+\f(CWMod+y\fP \(en Fibbonacci spiral mode
 .ITEM
 \f(CWMod+Y\fP \(en Dwindle mode (similar to Fibonacci)
 .ITEM
@@ -161,7 +182,7 @@ To type capital letters, hold down the \f(CWShift\fP key\(emthat might sound lik
 .ITEM
 \f(CWMod+m\fP \(en ncmpcpp (music player)
 .ITEM
-\f(CWMod+w\fP \(en Web browser (LibreWolf by default)
+\f(CWMod+w\fP \(en Web browser (Brave by default)
 .ITEM
 \f(CWMod+W\fP \(en nmtui (for connecting to wireless internet)
 .ITEM
@@ -221,7 +242,7 @@ There are nine tags, active tags are highlighted in the top left.
 .ITEM
 \f(CWMod+F11\fP \(en View webcam
 .ITEM
-\f(CWMod+F12\fP \(en Rerun keyboard mapping scripts if new keyboard is attached
+\f(CWMod+F12\fP \(en Rerun kayboard mapping scripts if new keyboard is attached
 .ITEM
 \f(CWMod+`\fP \(en Select an emoji to copy to clipboard
 .ITEM
@@ -295,7 +316,7 @@ You'll have to restart the program to see its effects obviously.
 .HEADING 1 "Frequently Asked Questions (FAQs)"
 .HEADING 2 "My keyboard isn't working as expected!"
 .PP
-As mentioned above, LARBS makes some keyboard changes with the \f(CWremaps\fP script.
+As mentioned above, ANUS makes some keyboard changes with the \f(CWremaps\fP script.
 These settings may override your preferred settings, so you should open this file and comment out troublesome lines if you have issues.
 .HEADING 2 "My audio isn't working!"
 .PP
@@ -310,35 +331,35 @@ In the Linux terminal, those binds have other more important purposes, so you ca
 Additionally, I've set vim to use the clipboard as the default buffer, which means when you yank or delete something in vim, it will be in your system clipboard as well, so you can \f(CWctrl-v\fP it into your browser instance, etc. You can also paste material copied from other programs into vim with the typical vim bindings.
 .HEADING 2 "How do I change the background/wallpaper?"
 .PP
-The system will always read the file \f(CW~/.local/share/bg\fP as the wallpaper.
+The system will always read the file \f(CW~/.config/wall.png\fP as the wallpaper.
 The script \f(CWsetbg\fP, if run on an image will set it as the persistent background.
 When using the file manager, you can simply hover over an image name and type \f(CWb\fP and this will run \f(CWsetbg\fP.
 .HEADING 2 "How I change the colorscheme?"
 .PP
-LARBS no longer deploys Xresources by default, but check \f(CW~/.config/x11/xresources\fP for a list of color schemes you can activate or add your own. When you save the file, vim will automatically update the colorscheme. If you'd like these colors activated by default on login, there is a line in \f(CW~/.config/x11/xprofile\fP you can uncomment to allow that.
+ANUS no longer deploys Xresources by default, but check \f(CW~/.config/x11/xresources\fP for a list of color schemes you can activate or add your own. When you save the file, vim will automatically update the colorscheme. If you'd like these colors activated by default on login, there is a line in \f(CW~/.config/x11/xprofile\fP you can uncomment to allow that.
 .PP
 Or, if you want to use \f(CWwal\fP to automatically generate colorschemes from your wallpapers, just install it and \f(CWsetbg\fP will automatically detect and run it on startup and wallpaper change.
 .HEADING 2 "How do I set up my email?"
 .PP
-LARBS comes with mutt-wizard, which gives the ability to receive and send all your email and keep an offline store of it all in your terminal, without the need for browser.
+ANUS comes with mutt-wizard, which gives the ability to receive and send all your email and keep an offline store of it all in your terminal, without the need for browser.
 You can add email accounts by running \f(CWmw -a your@email.com\fP.
 See \f(CWman mw\fP for all the information you need about mutt-wizard.
 .PP
 Once you have successfully added your email address(es), you can open your mail with \f(CWneomutt\fP which is also bound to \f(CWMod+e\fP.
 You can sync your mail by pressing \f(CWMod+F8\fP and you can set a cronjob to sync mail every 10 minutes by running \f(CWmw -t 10\fP.
 .PP
-You may also want to install \f(CWpam-gnupg-git\fP, which can be set up to automatically unlock your GPG key on login, which will allow you avoid having put in a password to sync and send, all while keeping your password safe and encrypted on your machine.
+You may also want to install \f(CWpam-gnupg-git\fP, which can be set up to automatically unlock your GPG key on login, which will allow you avoid having put in a password to sync and send, all while keeping your password safe and encypted on your machine.
 .HEADING 2 "How do I set up my music?"
 .PP
 By default, mpd, the music daemon assumes that \f(CW~/Music\fP is your music directory.
 This can be changed in \f(CW~/.config/mpd/mpd.conf\fP.
 When you add music to your music folder, you may have to run \f(CWmpc up\fP in the terminal to update the database.
 mpd is controlled by ncmpcpp, which is accessible by \f(CWMod+m\fP.
-.HEADING 2 "How do I update LARBS?"
+.HEADING 2 "How do I update ANUS?"
 .PP
-LARBS is deployed as a git repository in your home directory.
+ANUS is deployed as a git repository in your home directory.
 You can use it as such to fetch, diff and merge changes from the remote repository.
-If you don't want to do that or don't know how to use git, you can actually just rerun the script (as root) and reinstall LARBS and it will automatically update an existing install if you select the same username.
+If you don't want to do that or don't know how to use git, you can actually just rerun the script (as root) and reinstall ANUS and it will automatically update an existing install if you select the same username.
 This will overwrite the original config files though, including changes you made for them, but this is an easier brute force approach that will also install any new dependencies.
 .HEADING 1 "Important Links"
 .PP
@@ -352,7 +373,7 @@ You can follow links via the keyboard in this pdf reader by pressing \f(CWf\fP f
 \(en For stalking!
 .ITEM
 .PDF_WWW_LINK "https://lukesmith.xyz/donate" "https://lukesmith.xyz/donate"
-\(en To incentivize more development of LARBS!
+\(en To incentivize more development of ANUS!
 .ITEM
 .PDF_WWW_LINK "https://github.com/LukeSmithxyz" "My Github Page"
 \(en For the code behind it!
